@@ -1,0 +1,16 @@
+{
+  "name": "kladrichat",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "npm@11.4.2",
+  "engines": { "node": ">=22.0.0" },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev -w @kladrichat/api",
+    "dev:web": "npm run dev -w @kladrichat/web",
+    "dev:mobile": "npm run start -w @kladrichat/mobile",
+    "test": "npm run test -ws --if-present",
+    "typecheck": "npm run typecheck -ws --if-present",
+    "check": "npm run typecheck && npm test"
+  }
+}

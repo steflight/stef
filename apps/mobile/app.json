@@ -1,0 +1,1 @@
+{"expo":{"name":"Kladrichat","slug":"kladrichat","version":"0.1.0","scheme":"kladrichat","plugins":["expo-router"],"ios":{"bundleIdentifier":"com.kladriva.kladrichat"},"android":{"package":"com.kladriva.kladrichat"}}}
